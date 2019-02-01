@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shaadi</string>
+    <string name="action_settings">Shaadi</string>
+    <string name="connect">Connect</string>
+    <string name="decline">Decline</string>
+    <string name="business_owner_entrepreneur">Business Owner / Entrepreneur</string>
+</resources>
