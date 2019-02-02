@@ -22,7 +22,7 @@ import io.reactivex.schedulers.Schedulers;
 public class ApiRepository implements RepositoryImp {
 
     private RemoteApiDataSource remoteApiDataSource;
-    private List<Disposable> allCompositeDisposable = new ArrayList<>();
+    public List<Disposable> allCompositeDisposable = new ArrayList<>();
 
     @Inject
     public ApiRepository(RemoteApiDataSource remoteApiDataSource) {
